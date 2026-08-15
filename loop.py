@@ -1,6 +1,15 @@
-lis = ['charles', 'martina', 'michael', 'florence', 'eli']
-print(f'Firtst 3 items in list are\n{lis[:3]}')
+my_pizza = ['garlic', 'new' , 'old' , 'momo']
 
-print(f"middle 3 items are {lis[1:4]}")
+friend_pizza = my_pizza[:]
 
-print(f"last 3 items in list are {lis[-3:]}")
+my_pizza.append('holo')
+friend_pizza.append('notholo')
+
+print(my_pizza)
+print(friend_pizza)
+
+for pizza in my_pizza:
+    print(pizza)
+
+for pizza in friend_pizza:
+    print(pizza)
