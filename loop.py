@@ -1,5 +1,2 @@
-pizaa = ['lemon', 'becon', 'hololo']
-
-for pizza in pizaa:
-    print(f"i like {pizza}\n")
-print("pizza is trash btw")
+cube = [num**3 for num in range(1,11)]
+print(cube)
