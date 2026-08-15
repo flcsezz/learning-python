@@ -1,15 +1,9 @@
-my_pizza = ['garlic', 'new' , 'old' , 'momo']
+buff = ('fish', 'salmon','neg','ro', 'tehe')
+for food in buff:
+    print(food)
 
-friend_pizza = my_pizza[:]
+buff = ('fish', 'salmon','neg','anoneee', 'gege')
+print("The menuw has slightly changed and new menu have")
 
-my_pizza.append('holo')
-friend_pizza.append('notholo')
-
-print(my_pizza)
-print(friend_pizza)
-
-for pizza in my_pizza:
-    print(pizza)
-
-for pizza in friend_pizza:
-    print(pizza)
+for food in buff:
+    print(food)
