@@ -1,11 +1,15 @@
-grail = {
-    'srings' : "strings are series of characters enclose in double quotes",
-    'methods' : 'methods are functions defined for a specific object or data type',
-    'function' : 'function are reusable block of code we use them because of DRY rule',
-    "DRY"      : 'Dont Repeat Yourself rule',
-    'PEP8'     : 'PEP8 is a pyhton styling guide that python deves use to make better and readable code'
-    
-}
+should_poll = [
+    'john', 'sera', 'siera', 'tame', 'impala',
+]
 
-for k, v in grail.items():
-    print(f'\t{k}\n\t>{v}\n')
+took_pool = {'john' : "C", 'tame':"rust" , 'sera':"C++"}
+
+
+for u in should_poll:
+    if u in took_pool:
+        l=took_pool[u]
+
+
+        print(f"thanks {u.title()} for taking the poll and your fav is {l.title()}\n")
+    else:
+        print(f"Hey {u.title()} You havent took the pool yet pls do asap\n")
