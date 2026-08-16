@@ -1,27 +1,19 @@
-people = [
-    {
-        'first' : 'gaurav',
-        'last' : 'baghel',
-        'age' : 19,
-    },
-    {
-        'first' : 'jojo',
-        'last' : 'bizzare',
-        'age' : 21,
-    },
-    {
-        'first' : 'noona',
-        'last' : 'willson',
-        'age' : 30 ,
-    }
-
-]
-
-
-
-for people in people:
-    firstn = f"{people['first']}  {people['last']}"
+people = {
     
-    agen = people['age']
+    'hokage' : ['konoha', 'notki' , 'yeski'],
 
-    print(f'\tName:{firstn.title()}\n\tage : {agen}\n')
+    'tsuchikage' : ['land' ,'of' ,'mist'],
+    
+    'raikage' : ['land' , 'waves' , 'mortal'],
+
+}
+
+for peopl in people:
+    places = people[peopl]
+
+
+    print(f"\n\t{peopl.title()} Fav places are:")
+    for places in places:
+        print(f'\t>{places.title()}')
+          
+
