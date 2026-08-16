@@ -1,19 +1,23 @@
-people = {
-    
-    'hokage' : ['konoha', 'notki' , 'yeski'],
-
-    'tsuchikage' : ['land' ,'of' ,'mist'],
-    
-    'raikage' : ['land' , 'waves' , 'mortal'],
+cities= {
+    'jab' : {
+        'country' : 'india',
+        'population' : '100',
+        'fact'  : 'is good',
+    },
+    'backport' : {
+        'country' : 'Outsude india',
+        'population' : '1000',
+        'fact'  : 'is good',
+        
+    },
 
 }
 
-for peopl in people:
-    places = people[peopl]
+for city, info in cities.items():
+    print(f"\nThe city {city.title()} info is : ")
+    for k, v in info.items():
+        print(f"{k.title()} = {v.title()}")
 
+    
 
-    print(f"\n\t{peopl.title()} Fav places are:")
-    for places in places:
-        print(f'\t>{places.title()}')
-          
 
