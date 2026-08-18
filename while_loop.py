@@ -1,7 +1,9 @@
-i = 0
-while i < 10:
-    i += 1
-    if i%2 == 0:
-        continue
-
-    print(i)
+message = "what toppings whould you like?\n"
+prompt = ""
+while prompt != 'quit':
+    prompt= input(message)
+    if prompt != 'quit':
+        print(f'ok we`ll add {prompt.title()} at you pizzy !!\n')
+    else:
+        print('Quitting the program')
+        
