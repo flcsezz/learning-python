@@ -1,9 +1,15 @@
-message = "what toppings whould you like?\n"
-prompt = ""
-while prompt != 'quit':
-    prompt= input(message)
-    if prompt != 'quit':
-        print(f'ok we`ll add {prompt.title()} at you pizzy !!\n')
+message = '\nEnter your Age to Know the ticket price:'
+
+while True:
+    prompt = int(input(message))
+
+
+    if prompt <= 3:
+        print('Your ticket is on us lil bro')
+    elif prompt>3 and prompt <= 12:
+        print('itll cost ya $10')
+    elif prompt > 12:
+        print('itll cost ya $15')
     else:
-        print('Quitting the program')
-        
+        print('enter a valid integer gng')
+    
