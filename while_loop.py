@@ -1,15 +1,10 @@
-message = '\nEnter your Age to Know the ticket price:'
+sandwitch_orders = ['aalo','chalu', 'claude' ,'sandwitch']
+finishd_orders = []
 
-while True:
-    prompt = int(input(message))
+for fin in sandwitch_orders:
+    finishd_orders.append(fin)
+    print(f"i made your {fin.title()} sandwitch\n")
 
-
-    if prompt <= 3:
-        print('Your ticket is on us lil bro')
-    elif prompt>3 and prompt <= 12:
-        print('itll cost ya $10')
-    elif prompt > 12:
-        print('itll cost ya $15')
-    else:
-        print('enter a valid integer gng')
-    
+print('completed order today: \n')
+for fin in finishd_orders:
+    print(f"{fin.title()} sandwitch")
