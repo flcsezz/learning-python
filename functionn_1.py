@@ -1,6 +1,4 @@
-def display_message():
-    '''this function displays message'''
-    print('im learning about functions in python')
+def favourite_books(title):
+    print(f'My favourite book is {title.title()}')
 
-
-display_message()
+favourite_books("Alice in yo buttyyery")
