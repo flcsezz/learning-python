@@ -1,4 +1,5 @@
-def favourite_books(title):
-    print(f'My favourite book is {title.title()}')
+def make_shirt(text,size="Large"):
+    """this funtion takes the size and text as input and prints the summerize the input"""
+    print(f"The size is {size} and the printable text is {text}.")
 
-favourite_books("Alice in yo buttyyery")
+make_shirt("I love python")
